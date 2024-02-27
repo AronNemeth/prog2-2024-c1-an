@@ -1,1 +1,4 @@
 pip install pandas
+pip install numpy
+pip install scipy
+pip install pyarrow
