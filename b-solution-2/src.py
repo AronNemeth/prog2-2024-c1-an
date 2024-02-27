@@ -25,3 +25,4 @@ if __name__ == "__main__":
     out_df = pd.DataFrame({"dist": min_distances, "weapon": weapon_values})
     
     pd.DataFrame(out_df).to_feather("out.feather")
+    
