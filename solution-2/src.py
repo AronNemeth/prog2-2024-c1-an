@@ -1,20 +1,21 @@
 import pandas as pd
-import numpy as np
-from scipy.spatial import distance
+import pickle
 
 if __name__ == "__main__":
+
     df = pd.read_pickle("input.pkl")
     query_df = pd.read_csv("query.csv")
 
-    input_values = df[["x", "y"]].values
-    query_values = query_df.values
+    input_coords = df[["x", "y"]].values
+    query_coords = query_df[["x", "y"]].values
 
-    diffs = distance.cdist(input_values, query_values, metric="euclidean")
+    with open("tree.pickle", "rb") as file:
+        tree = pickle.load(file)
 
-    min_indices = np.argmin(diffs, axis=0)  # Lehet nem az 0 kéne az axis-nál?
-    min_distances = np.min(diffs, axis=0)
+    distances, indices = tree.query(query_coords, k=1)
 
-    weapon_values = df.iloc[min_indices]["weapon"].values
+    weapon_values = df.iloc[indices]["weapon"].values
 
-    out_df = pd.DataFrame({"dist": min_distances, "weapon": weapon_values})
-    out_df.to_csv("out.csv", index=False)
+    out_df = pd.DataFrame({"dist": distances, "weapon": weapon_values})
+
+    out_df.to_feather("out.feather")
