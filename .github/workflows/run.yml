@@ -22,6 +22,10 @@ jobs:
     - name: Run solutions
       run: |
         python collective_run.py
+    - name: Create Comparison Table
+      run: |
+        pip install pandas tabulate
+        python comptable.py
     - name: Commit results
       run: |
         git add runs && git commit -m "update results" && git push
