@@ -1,70 +1,70 @@
-# 2025-06-08
+# 2025-06-09
 
 ## Inputs: 1000, Queries 20
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.536343 |       0.418538 |   0.41226  |
-| barab-szabi-2         |     0.541265 |       0.420263 |   0.422178 |
-| solution-1            |     7.45709  |       1e-06    |   0.448526 |
-| barab-szabi-1         |     7.87995  |       0.4303   |   0.517258 |
-| Bori_Aron_solution-1  |     0.529694 |       0.54174  |   0.540542 |
-| solution-2-mark-virag |     0.537064 |       0.40214  |   0.655728 |
+| bori_aron_solution_2  |     0.580889 |       0.448194 |   0.460007 |
+| barab-szabi-2         |     0.956159 |       0.445584 |   0.466503 |
+| solution-1            |     8.52968  |       2e-06    |   0.525859 |
+| Bori_Aron_solution-1  |     1.04343  |       0.60154  |   0.603193 |
+| solution-2-mark-virag |     1.04221  |       0.450166 |   0.750019 |
+| barab-szabi-1         |     8.74801  |       0.511531 |   0.764005 |
 
 ## Inputs: 10000, Queries 50
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.532072 |       0.421656 |   0.413741 |
-| barab-szabi-2         |     0.548715 |       0.421244 |   0.425453 |
-| barab-szabi-1         |     0.540375 |       0.411168 |   0.428321 |
-| Bori_Aron_solution-1  |     0.534322 |       0.557436 |   0.549402 |
-| solution-2-mark-virag |     0.549113 |       0.410958 |   0.667781 |
+| bori_aron_solution_2  |     0.545112 |       0.431043 |   0.431391 |
+| barab-szabi-2         |     0.576155 |       0.448829 |   0.44543  |
+| barab-szabi-1         |     0.583164 |       0.440416 |   0.456595 |
+| Bori_Aron_solution-1  |     0.576049 |       0.600878 |   0.591712 |
+| solution-2-mark-virag |     0.584533 |       0.452207 |   0.72152  |
 
 ## Inputs: 50000, Queries 200
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.530879 |       0.444131 |   0.418491 |
-| barab-szabi-2         |     0.568521 |       0.434398 |   0.440687 |
-| barab-szabi-1         |     0.574049 |       0.431035 |   0.453633 |
-| Bori_Aron_solution-1  |     0.534255 |       0.58593  |   0.546661 |
-| solution-2-mark-virag |     0.551414 |       0.432629 |   0.683835 |
+| bori_aron_solution_2  |     0.560437 |       0.488577 |   0.457367 |
+| barab-szabi-2         |     0.590365 |       0.462537 |   0.462547 |
+| barab-szabi-1         |     0.566397 |       0.454543 |   0.480632 |
+| Bori_Aron_solution-1  |     0.564347 |       0.628053 |   0.595763 |
+| solution-2-mark-virag |     0.588207 |       0.449742 |   0.733479 |
 
 ## Inputs: 250000, Queries 500
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.536076 |       0.562045 |   0.431264 |
-| barab-szabi-2         |     0.537772 |       0.492403 |   0.46264  |
-| barab-szabi-1         |     0.546109 |       0.556588 |   0.569313 |
-| Bori_Aron_solution-1  |     0.53756  |       0.770413 |   0.577039 |
-| solution-2-mark-virag |     0.544528 |       0.557377 |   0.776705 |
+| bori_aron_solution_2  |     0.569231 |       0.586503 |   0.444604 |
+| barab-szabi-2         |     0.586819 |       0.537159 |   0.493221 |
+| barab-szabi-1         |     0.586524 |       0.586073 |   0.59113  |
+| Bori_Aron_solution-1  |     0.562876 |       0.791186 |   0.617337 |
+| solution-2-mark-virag |     0.591413 |       0.598201 |   0.858761 |
 
 ## Inputs: 1000000, Queries 1000
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.527965 |       0.985135 |   0.43557  |
-| barab-szabi-2         |     0.535444 |       0.741233 |   0.490328 |
-| Bori_Aron_solution-1  |     0.529013 |       1.40137  |   0.585911 |
-| barab-szabi-1         |     0.542859 |       0.884485 |   0.943486 |
-| solution-2-mark-virag |     0.544151 |       0.879203 |   1.11521  |
+| bori_aron_solution_2  |     0.547431 |       1.00718  |   0.431141 |
+| barab-szabi-2         |     0.53773  |       0.75897  |   0.503663 |
+| Bori_Aron_solution-1  |     0.542745 |       1.4117   |   0.586315 |
+| barab-szabi-1         |     0.559667 |       0.883298 |   0.996012 |
+| solution-2-mark-virag |     0.544952 |       0.922795 |   1.13168  |
 
 ## Inputs: 10000000, Queries 1000
 
 | solution              |   setup_time |   preproc_time |   run_time |
 |:----------------------|-------------:|---------------:|-----------:|
-| bori_aron_solution_2  |     0.5298   |        7.90253 |   0.520074 |
-| barab-szabi-2         |     0.54406  |        5.51519 |   0.739615 |
-| Bori_Aron_solution-1  |     0.541705 |       11.0036  |   0.852155 |
-| barab-szabi-1         |     0.545266 |        4.99982 |   6.96786  |
-| solution-2-mark-virag |     0.56286  |        4.9522  |   7.22985  |
+| bori_aron_solution_2  |     0.565761 |        7.74672 |   0.540254 |
+| barab-szabi-2         |     0.556348 |        5.43013 |   0.779318 |
+| Bori_Aron_solution-1  |     0.555494 |       10.6893  |   0.862407 |
+| barab-szabi-1         |     0.547538 |        5.01776 |   6.64183  |
+| solution-2-mark-virag |     0.558116 |        5.03479 |   7.28653  |
 
 ## Inputs: 100000000, Queries 10000
 
 | solution             |   setup_time |   preproc_time |   run_time |
 |:---------------------|-------------:|---------------:|-----------:|
-| barab-szabi-2        |     0.819797 |        73.3864 |    2.88838 |
-| bori_aron_solution_2 |     0.691429 |       109.008  |   10.8538  |
-| Bori_Aron_solution-1 |     0.535031 |       159.646  |   14.4753  |
+| barab-szabi-2        |     0.794463 |        75.1258 |    2.85124 |
+| bori_aron_solution_2 |     0.601947 |       112.892  |   10.0027  |
+| Bori_Aron_solution-1 |     0.555909 |       153.507  |   12.9636  |
